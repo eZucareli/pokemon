@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f1f1f1;
+}
+
+div#logo{
+    margin-left: 10%;
+}
+
+
+#blocoMenu {
+
+    width: 100%;
+    height: 84px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+#listaMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#listaMenu li {
+    display: flex;
+    width: 200px;
+    height: 64px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#home {
+    border-bottom: solid 10px #ccc;
+}
+
+#Pokedex {
+    border-bottom: solid 10px #ccc;
+}
+
+#VideoGame {
+    border-bottom: solid 10px #ccc;
+}
+
+#TradingCardGame {
+    border-bottom: solid 10px #ccc;
+}
+
+#PokemonTV {
+    border-bottom: solid 10px #ccc;
+}
+
+#PokemonEvents {
+    border-bottom: solid 10px #ccc;
+}
+
+#News {
+    border-bottom: solid 10px #ccc;
+}
+
+
+#title {
+    padding: 20px;
+    margin-left: 13%;
+    margin-right: 10%;
+    display: center;
+    justify-content: center;
+    color: #919191;
+}
+
+.caixaPreta {
+    padding: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nameOrNumber {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 13px;
+    margin-right: 60%;
+    margin-left: 8%;
+}
+
+#caixaBranca {
+    background-color: white;
+    height: 35px;
+    width: 350px;
+    margin-left: 8%;
+}
+
+#search {
+    background-color: #EE6B2F;
+    height: 35px;
+    margin-left: 2px;
+}
